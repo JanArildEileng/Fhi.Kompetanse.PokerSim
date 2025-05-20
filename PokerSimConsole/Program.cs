@@ -29,7 +29,7 @@ static List<Player> CreatePlayers()
 
     //   new Player(nameof(AlwaysCallStrategy),new AlwaysCallStrategy()),
     //   new Player(nameof(CallOrRaiseStrategy), new CallOrRaiseStrategy()),
-    //   new Player(nameof(JanStrategy),new JanStrategy()),
+       new Player(nameof(JanStrategy),new JanStrategy()),
     ];
 
     //add ramdomPlayers
